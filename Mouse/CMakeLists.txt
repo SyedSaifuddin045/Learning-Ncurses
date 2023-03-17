@@ -1,9 +1,8 @@
 cmake_minimum_required(VERSION 3.0.0)
 
-project(TEST_0)
+project(MOUSE_0)
 
-set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
-add_executable(TEST_0 Test.cpp)
+add_executable(MOUSE_0 Mouse.cpp)
 
 find_package(ncursescpp REQUIRED)
 
